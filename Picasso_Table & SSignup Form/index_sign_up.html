@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<header>
+<title>Sign Up Form</title>
+<link rel="stylesheet" href="styles.css">
+</header>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+            
+            <br><legend>Personal Details :</legend>
+            Salutation
+            <select>
+                <option>Mr</option>
+                <option>Miss</option>
+            </select>
+            <br><br>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            Gender : 
+            <input type="radio" id="gender_male" name="gender" value="email">
+            <label for="contactChoice1">Male</label>
+            <input type="radio" id="gender_female"  name="gender" value="telephone">
+            <label for="contactChoice2">Female</label>
+            <br>
+            <br>
+            Email : <input type="email" id="email" name="email">
+            <br>
+            <br>
+            Date of Birth <input type="date" id="date_birth" >
+            <br>
+            <br>
+            Address : 
+            <br>
+            <textarea id="id_Address" name="Address" rows="4" cols="50">
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+</body>

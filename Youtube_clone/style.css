@@ -1,0 +1,13 @@
+.table_logo {
+    border-collapse: collapse;
+    height: 35px;
+    padding: 1px ; 
+    
+    margin-left: 10px ; 
+    border: 0px solid;
+}
+table, tr, td {
+    border-collapse: collapse;
+    padding: 10px ; 
+    border: 0px solid;
+}
